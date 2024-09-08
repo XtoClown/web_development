@@ -36,3 +36,162 @@
     transform: rotate(360deg);
   }
 }
+.customBackground{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  background-color: #38373f;
+  gap: 2%;
+}
+.firstComponentMain{
+  height: 18%;
+  width: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #282c34;
+  font-size: 2.5vmin;
+  color: #839dce;
+  border-radius: 3vmin;
+}
+.firstComponentMain h1{
+  font-size: 3vmin;
+  font-weight: bold;
+  margin: 0%;
+  color: #c9c9c9;
+  background-color: #38373f;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vmin;
+  height: 28%;
+}
+.secondComponentMain{
+  height: 35%;
+  width: 20%;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4%;
+  border-radius: 3vmin;
+}
+.secondComponentMain h1{
+  font-size: 2.4vmin;
+  font-weight: bold;
+  margin: 0%;
+  color: #c9c9c9;
+  background-color: #38373f;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vmin;
+  height: 20%;
+}
+.secondComponentMain img{
+  height: 65%;
+  width: 90%;
+  border-radius: 2vmin;
+}
+.thirdComponentMain{
+  height: 100%;
+  width: 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  border-radius: 3vmin;
+  gap: 5%;
+}
+.thirdComponentMain h1{
+  font-size: 2.4vmin;
+  font-weight: bold;
+  margin: 0%;
+  color: #c9c9c9;
+  background-color: #38373f;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vmin;
+  height: 20%;
+}
+.customForm{
+  height: 66%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.customButton{
+  background-image: url('./image/moodle.png');
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  border-radius: 2vmin
+}
+.customAppDiv{
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+  justify-content: center;
+  align-items: center;
+}
+.fourthComponentMain{
+  height: 80%;
+  width: 20%;
+  background-color: #282c34;
+  color: #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-indent: 4%;
+  border-radius: 3vmin;
+}
+.using{
+  color: #9e4221;
+}
+.func{
+  color: #a062c6;
+}
+.fourthComponentMain h1{
+  margin: 0%;
+  font-size: 2vmin;
+  margin-bottom: 5%;
+}
+.fifthComponentMain{
+  height: 100%;
+  width: 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  border-radius: 3vmin;
+  color: #c9c9c9;
+}
+.fifthComponentMain h1{
+  font-size: 2vmin;
+  font-weight: bold;
+  margin: 0%;
+  background-color: #38373f;
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vmin;
+  height: 15%;
+  margin-bottom: 2%;
+}

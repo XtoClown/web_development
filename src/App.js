@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Firstcomponent from './components/Firstcomponent';
+import Secondcomponent from './components/Secondcomponent';
+import Thirdcomponent from './components/Thirdcomponent';
+import Fourthcomponent from './components/Fourthcomponent';
+import Fifthcomponent from './components/Fifthcomponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="customBackground">
+      <Firstcomponent/>
+      <Secondcomponent name="FromSecondComponent"/>
+      <div class="customAppDiv">
+        <Thirdcomponent name="Moodle"/>
+        <Fourthcomponent/>
+        <Fifthcomponent group={209} student={["Владислав Левченко", "Владислав Левченко", "Владислав Левченко", "Владислав Левченко", "Владислав Левченко", "Владислав Левченко", "Владислав Левченко", "Владислав Левченко",]}/>
+      </div>
     </div>
   );
 }
