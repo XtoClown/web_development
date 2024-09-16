@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,500;1,500&display=swap');
+.modalWindow{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.modalContent{
+    background-color: #181323;
+    height: 40%;
+    width: 25%;
+    border: 0.2vmin solid #a89bc5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a89bc5;
+    font-family: 'JetBrains Mono';
+    font-size: 2vmin;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+.modalInput{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.inputLabels{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-indent: 30%;
+    gap: 20%;
+    box-sizing: border-box;
+}
+.inputHolders{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 12%;
+}
+.inputHolders input{
+    background-color: #40325c;
+    height: 20%;
+    width: 80%;
+    border: 0px;
+    border-radius: 0px;
+    text-indent: 5%;
+    color: #a89bc5;
+    font-family: 'JetBrains Mono';
+    font-size: 2vmin;
+    font-weight: 600;
+}
+.inputHolders input::placeholder{
+    color: #756d88;
+}
+
+.modalContent button{
+    height: 20%;
+    width: 40%;
+    font-family: 'JetBrains Mono';
+    font-size: 2vmin;
+    font-weight: 600;
+    color: #a89bc5;
+    background-color: #40325c;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.loginText{
+    font-size: 4vmin;
+}
+.error{
+    height: 5%;
+    font-size: 1.5vmin;
+    color: #a89bc5;
+    margin: -7% 0% 5% 0%;
+}
