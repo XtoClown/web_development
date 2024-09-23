@@ -31,14 +31,14 @@
 }
 
 .appBody{
-  height: 92%;
+  height: 90%;
   width: inherit;
   background-color: #181323;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: white;
+  gap: 2%
 }
 
 .footer{
@@ -47,6 +47,34 @@
   flex: 1;
   overflow: auto;
   border-top: 0.2vmin solid #a89bc5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footerFirstPart{
+  height: 100%;
+  width: 49%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: 'JetBrains Mono';
+  font-size: 1.2vmin;
+  font-weight: 600;
+  color: #a89bc5;
+  flex-direction: row;
+}
+.footer .footerSecondPart{
+  height: 100%;
+  width: 49%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-family: 'JetBrains Mono';
+  font-size: 1.2vmin;
+  font-weight: 600;
+  color: #a89bc5;
+  flex-direction: row;
 }
 
 .headerButtons{
@@ -154,4 +182,211 @@
 }
 .customButtonDiv button:active{
   background-color: #282039;
+}
+
+.productWindow{
+  border: 0.2vmin solid #a89bc5;
+  height: 98%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.productWindow > .product{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5%;
+}
+.product > .productIcon{
+  height: 40%;
+  aspect-ratio: 1 / 1;
+  border: 0.2vmin solid #a89bc5;
+}
+.product > .productIcon img{
+  height: 100%;
+  width: 100%;
+}
+.product > .productName{
+  height: 10%;
+  width: 70%;
+  border: 0.2vmin solid #a89bc5;
+  font-size: 3vmin;
+  font-weight: 600;
+  color: #a89bc5;
+  font-family: 'JetBrains Mono';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product > .productInfo{
+  height: 35%;
+  width: 70%;
+  border: 0.2vmin solid #a89bc5;
+  font-size: 1.9vmin;
+  font-weight: 600;
+  color: #a89bc5;
+  font-family: 'JetBrains Mono';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productWindow > .commentary{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.commentary > .commentaryPlace{
+  height: 98%;
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vmin;
+  overflow: auto;
+}
+.commentaryPlace > .newComment{
+  width: 100%;
+  margin-top: 4%;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vh;
+}
+.newComment > textarea{
+  height: 70%;
+  width: 90%;
+  border: 0.2vmin solid #a89bc5;
+  background-color: #40325c;
+  font-size: 2vmin;
+  font-weight: 600;
+  text-indent: 1vmin;
+  color: #a89bc5;
+  font-family: 'JetBrains Mono';
+}
+.newComment > textarea::placeholder{
+  color: #756d88;
+}
+.newComment > button{
+  height: 25%;
+  width: 40%;
+  background-color: #a89bc5;
+  border: 0px;
+  border-radius: 0px;
+  font-family: 'JetBrains Mono';
+  font-size: 3vmin;
+  font-weight: 600;
+  color: #181323;
+  cursor: pointer;
+}
+.newComment > button:disabled{
+  background-color: #40325c;
+}
+
+.userComment{
+  height: 10%;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border: 0.2vmin solid #a89bc5;
+}
+.userComment .commentatorInfo{
+  height: 86%;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1%;
+}
+.commentatorInfo .userAvatar{
+  width: 100%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userAvatar img{
+  height: 100%;
+  aspect-ratio: 1 / 1;
+}
+.commentatorInfo .userName{
+  font-family: 'JetBrains Mono';
+  font-size: 1.75vmin;
+  font-weight: 600;
+  color: #a89bc5;
+}
+
+.userComment > .commentPlace{
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.commentPlace > .commentText{
+  height: 86%;
+  width: 96%;
+  background-color: #40325c;
+  overflow: auto;
+  text-indent: 2vmin;
+  font-family: 'JetBrains Mono';
+  font-size: 1.75vmin;
+  font-weight: 600;
+  color: #a89bc5;
+}
+
+.converter{
+  height: 30%;
+  width: 25%;
+  border: 0.2vmin solid #a89bc5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency{
+  height: 45%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.currency input{
+  height: 40%;
+  width: 60%;
+  border: 0.2vmin solid #a89bc5;
+  background-color: #40325c;
+  font-size: 2vmin;
+  font-weight: 600;
+  text-indent: 2vmin;
+  color: #a89bc5;
+  font-family: 'JetBrains Mono';
+}
+.currency label{
+  font-size: 2vmin;
+  font-weight: 600;
+  text-indent: 2vmin;
+  color: #a89bc5;
+  font-family: 'JetBrains Mono';
 }

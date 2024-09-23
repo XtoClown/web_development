@@ -21,10 +21,12 @@ export default class Header extends Component {
   }
   
   handleLogin(){
+    this.props.login();
     this.setState({isLoggedIn: true})
   }
 
   handleLogout(){
+    this.props.logout();
       this.setState({isLoggedIn: false})
   }
 

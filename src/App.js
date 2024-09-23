@@ -2,16 +2,25 @@ import './App.css';
 import Header from './components/Header';
 import Body from './components/Body';
 import Footer from './components/Footer';
-import ItemsList from './components/ItemsList';
+import React, { useState } from 'react';
 
-let items_list = ["Juice", "Water", "Tea", "Coffe"]
 
 function App() {
   
+  const [ isLoggedIn, setIsLoggedIn ] = useState(false)
+
+  function login(){
+    setIsLoggedIn(true);
+  }
+
+  function logout(){
+    setIsLoggedIn(false);
+  }
+
   return (
     <div className="App">
-      <Header/>
-      <Body children={<ItemsList componentItemsList={items_list}/>}/>
+      <Header login={login} logout={logout}/>
+      <Body isLoggedIn={isLoggedIn}/>
       <Footer/>
     </div>
   );
