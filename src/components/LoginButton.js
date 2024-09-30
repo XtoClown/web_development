@@ -1,36 +1,22 @@
-import React, { Component } from 'react'
+import React, {useCallback, useState} from 'react'
 import Modal from './Modal/Modal'
 
-export default class LoginButton extends Component {
+export default function LoginButton(props) {
 
-  constructor(props) {
-    super(props)
-  
-    this.state = {
-       modalActive: false
-    }
+  const [modal, setModal] = useState(false);
 
-    this.modalOpen = this.modalOpen.bind(this)
-    this.modalClose = this.modalClose.bind(this)
-  }
-  
-  modalOpen(){
-    this.setState({modalActive: true})
-  }
+  const modalOpen = useCallback( () => {
+    setModal(true);
+  })
 
-  modalClose(){
-    this.setState({modalActive: false})
-  }
+  const modalClose = useCallback( () => {
+    setModal(false);
+  })
 
-  render() {
-    const modalActive = this.state.modalActive;
-    let modal;
-    if (modalActive) modal = <Modal closeModal={this.modalClose} loginFunction={this.props.onClick} setUserName={this.props.setUserName}/>
-    return (
-      <div class="customButton">
-        {modal}
-        <button onClick={this.modalOpen}>Login</button>
-      </div>
-    )
-  }
+  return (
+    <div class="customButton">
+      {modal === true? <Modal closeModal={modalClose} loginFunction={props.onClick} setUserName={props.setUserName}/>: ""}
+      <button onClick={modalOpen}>Login</button>
+    </div>
+  )
 }

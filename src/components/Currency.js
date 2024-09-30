@@ -1,29 +1,48 @@
-import React, { Component } from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 
-const currencyNames = {
+export default function Currency(props) {
+
+  const currencyNames = {
     usd: "US Dollar",
     uah: "Ukraine Hryvnia"
-}
-
-export default class Currency extends Component {
-
-    constructor(props) {
-    super(props)
-    this.handleChange = this.handleChange.bind(this)
-    }
-
-    handleChange(event){
-        this.props.onMoneyChange(event.target.value);
-    }
-
-  render() {
-    const money = this.props.money;
-    const currency = this.props.currency;
-    return (
-      <div class="currency">
-        <label for="moneyInput">{currencyNames[currency]}</label>
-        <input id="moneyInput" value={money} onChange={this.handleChange}/>
-      </div>
-    )
   }
+
+  const money = props.money;
+  const currency = props.currency;
+
+
+  function handleMoneyChange(event){
+    props.onMoneyChange(event.target.value);
+  }
+
+  const [focus, setFocus] = useState(false);
+  const labelRef = useRef(null);
+  const inputRef = useRef(null);
+  const [locker, setLocker] = useState(true);
+  const [color, setColor] = useState("#d78bf7");
+
+  useEffect( () => {
+    if(!locker){
+      let temp = labelRef.current.style.color;
+      labelRef.current.style.color = color;
+      inputRef.current.style.color = color;
+      setColor(temp);
+    }
+  }, [focus])
+
+  function handleInputFocus(){
+    setLocker(false);
+    setFocus(true);
+  }
+
+  function handleInputBlur(){
+    setFocus(false);
+  }
+
+  return (
+    <div class="currency">
+      <label ref={labelRef} for="moneyInput">{currencyNames[currency]}</label>
+      <input ref={inputRef} id="moneyInput" onFocus={handleInputFocus} onBlur={handleInputBlur} value={money} onChange={handleMoneyChange}/>
+    </div>
+  )
 }

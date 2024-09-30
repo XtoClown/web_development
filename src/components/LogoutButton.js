@@ -1,12 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class LogoutButton extends Component {
-    
-  render() {
-    return (
-      <div class="customButton" onClick={this.props.onClick}>
-        <button>Logout</button>
-      </div>
-    )
-  }
+export default function LogoutButton(props) {
+  return (
+    <div class="customButton" onClick={props.onClick}>
+      <button>Logout</button>
+    </div>
+  )
 }
