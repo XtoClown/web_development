@@ -1,10 +1,17 @@
 import React, {useState} from 'react'
 import './Modal.css';
+import { useSetUser, useUser } from '../User/UserContext';
+import userAvatar from '../../image/avatar.jpg'
+import { useLoginContext } from '../User/LoginContext';
 
 export default function Modal(props) {
 
-  const __correctName = "Oleh";
-  const __correctPassword = "1234";
+  const user = useUser();
+  const setUser = useSetUser();
+  const __correctName = user.username != "Anon" ? user.username : null;
+  const __correctPassword = user.password != "Anon" ? user.password : null;
+
+  const login = useLoginContext();
 
   const [enteredName, setNameEntered] = useState("");
   const [enteredPassword, setPasswordEntered] = useState("");
@@ -23,9 +30,16 @@ export default function Modal(props) {
   }
 
   function loginPromt(){
-    if(enteredName === __correctName && enteredPassword === __correctPassword){
+    if(__correctName == null && __correctPassword == null){
+      setUser.handleSetUser(enteredName);
+      setUser.handleSetPassword(enteredPassword);
+      setUser.handleSetAvatar(userAvatar);
+      login.handleLoggedInChange(true);
       props.closeModal();
-      props.loginFunction(__correctName);
+    }
+    if(enteredName === __correctName && enteredPassword === __correctPassword){
+      login.handleLoggedInChange(true);
+      props.closeModal();
     }
     else{
       errorHandler();

@@ -1,40 +1,30 @@
-import React, {useCallback, useState} from 'react'
+import React from 'react'
 import LoginButton from './LoginButton'
 import LogoutButton from './LogoutButton'
 import User from './User'
 import logoImage from '../image/logo.png'
 import Button from './Button'
+import { useLoginContext } from './User/LoginContext'
 
 export default function Header(props) {
 
-  const [isLoggedIn, setLoggedIn] = useState(false);
-  const [userName, setUserName] = useState("");
+  const login = useLoginContext();
+  const isLoggedIn = login.isLoggedIn;
 
-
-  const handleLogin = useCallback( (name) => {
-    props.login();
-    setLoggedIn(true);
-    setUserName(name);
-  })
-
-  const handleLogout = useCallback( () => {
-    props.logout();
-    setLoggedIn(false);
-    setUserName("");
-  })
+  const history = props.history;
 
   return (
     <div class="header">
       <div class="logo"><img src={logoImage}/></div>
       <div class="headerButtons">
-        <Button text={"Home"}/>
-        <Button text={"Support"}/>
-        <Button/>
-        <Button/>
+        <Button text={"Home"} onClick={() => history.handlerPageNavigation()}/>
+        <Button text={"Support"} onClick={() => history.handlerPageNavigation("/support")}/>
+        <Button text={"Picture"} onClick={() => history.handlerPageNavigation("/picture")}/>
+        <Button text={"History"} onClick={() => history.handlerPageNavigation("/history")}/>
       </div>
       <div class="account">
-        {isLoggedIn ? <LogoutButton onClick={handleLogout}/> : <LoginButton onClick={handleLogin}/>}
-        {isLoggedIn ? <User user={userName}/> : ""}
+        {isLoggedIn ? <LogoutButton /> : <LoginButton />}
+        {isLoggedIn ? <User /> : ""}
       </div>
     </div>
   )

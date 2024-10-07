@@ -1,17 +1,25 @@
 import React, {useState, useEffect, useCallback} from 'react'
 import Comment from './Comment'
 import AddNewComment from './AddNewComment'
-import userAvatar from '../image/avatar.jpg'
+import { useUser } from './User/UserContext';
+import { useLoginContext } from './User/LoginContext';
 
 export default function Product(props) {
 
   const [comments, setComments] = useState([]);
 
+  const user = useUser();
+  const username = user.username;
+  const avatar = user.avatar;
+
+  const login = useLoginContext();
+  const isLoggedIn = login.isLoggedIn;
+
   const newCommentAddHandler = useCallback( (text=null) => {
-    setComments(props.isLoggedIn ?
-      [ <Comment commentText={text} userName="Oleh" userAvatar={userAvatar}/>, comments ]  : 
-      [ <Comment commentText={text}/>, comments ]);
-  }, [comments, props.isLoggedIn])
+    setComments(isLoggedIn ? 
+      [ <Comment commentText={text} userName={username} userAvatar={avatar}/>, ...comments ] : 
+      [ <Comment commentText={text} />, ...comments ]
+    )}, [comments, isLoggedIn])
 
   useEffect( () => {
     alert("Comment section render...");

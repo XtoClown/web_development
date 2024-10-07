@@ -276,6 +276,7 @@
   text-indent: 1vmin;
   color: #a89bc5;
   font-family: 'JetBrains Mono';
+  resize: none;
 }
 .newComment > textarea::placeholder{
   color: #756d88;
@@ -389,4 +390,120 @@
   text-indent: 2vmin;
   color: #a89bc5;
   font-family: 'JetBrains Mono';
+}
+
+.historyListPlaceholder{
+  height: 98%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vmin;
+  font-weight: 600;
+  color: #a89bc5;
+  font-family: 'JetBrains Mono';
+  border: 0.1vmin solid #a89bc5;
+}
+
+.historyTitle{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vmin;
+}
+
+.historyList{
+  height: 75%;
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  flex-direction: column;
+  gap: 1%
+}
+
+.supportForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 98%;
+  width: 25%;
+  border: 0.1vmin solid #a89bc5;
+  font-size: 2vmin;
+  font-weight: 600;
+  color: #a89bc5;
+  font-family: 'JetBrains Mono';
+}
+
+.supportInputName{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.supportInputName > input{
+  height: 60%;
+  width: 70%;
+  border: 0.2vmin solid #a89bc5;
+  background-color: #40325c;
+  font-size: 2vmin;
+  font-weight: 600;
+  text-indent: 2vmin;
+  color: #a89bc5;
+  font-family: 'JetBrains Mono';
+}
+.supportInputName > input::placeholder{
+  color: #756d88;
+}
+.supportInputName > label{
+  height: 40%;
+  width: 70%;
+}
+
+.supportInputCase{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.supportInputCase > textarea{
+  height: 80%;
+  width: 70%;
+  border: 0.2vmin solid #a89bc5;
+  background-color: #40325c;
+  font-size: 2vmin;
+  font-weight: 600;
+  text-indent: 2vmin;
+  color: #a89bc5;
+  font-family: 'JetBrains Mono';
+  resize: none;
+}
+.supportInputCase > textarea::placeholder{
+  color: #756d88;
+}
+
+.supportInputCase > label{
+  width: 70%;
+}
+
+.supportTitle{
+  height: 15%;
+  font-size: 5vmin;
+}
+
+.picturePageImage{
+  height: 96%;
+  width: 50%;
+  border: 0.1vmin solid #a89bc5;
 }

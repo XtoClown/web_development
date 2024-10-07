@@ -2,6 +2,7 @@ import React from 'react'
 import anonUserAvatar from '../image/anonUserAvatar.jfif'
 
 export default function Comment(props) {
+
   return (
     <div class="userComment">
       <div class="commentatorInfo">

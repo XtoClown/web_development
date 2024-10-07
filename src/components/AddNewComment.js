@@ -8,7 +8,7 @@ function useTextarea(initialValue){
   }
 
   return{
-    value, onChange
+    value, onChange, setValue
   }
 }
 
@@ -19,7 +19,7 @@ export default function AddNewComment(props) {
   const callbackAddNewComment = useCallback( () => {
     props.onClick(textarea.value);
     alert(`Your review "${textarea.value}" was added successfully`);
-    textarea.value = "";
+    textarea.setValue("");
   }, [textarea.value])
 
   return (

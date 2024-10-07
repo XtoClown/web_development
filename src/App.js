@@ -1,8 +1,14 @@
 import './App.css';
 import Header from './components/Header';
-import Body from './components/Body';
+import Body from './components/Homepages/Body';
 import Footer from './components/Footer';
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import UserProvider from './components/User/UserContext';
+import LoginProvider, { useLoginContext } from './components/User/LoginContext';
+import { Route, Routes, Link, useNavigate } from 'react-router-dom'
+import Support from './components/Homepages/Support';
+import Picture from './components/Homepages/Picture';
+import History from './components/Homepages/History';
 
 function useLogger(isLoggedIn){
   useEffect( () => {
@@ -11,27 +17,52 @@ function useLogger(isLoggedIn){
   }, [isLoggedIn] );
 }
 
+function useUserPageHistory(){
+
+  const [userHistory, setUserPageHistory] = useState([]);
+  const navigate = useNavigate();
+
+  function handlerPageNavigation(path="/"){
+      setUserPageHistory([...userHistory, `http://localhost:3000${path}`])
+      navigate(path)
+  }
+
+  return { userHistory, handlerPageNavigation };
+}
+
 function App() {
+
+  return (
+    <UserProvider>
+      <LoginProvider>
+        <Content/>
+      </LoginProvider>
+    </UserProvider>
+  );
+}
+
+function Content(){
   
-  const [ isLoggedIn, setIsLoggedIn ] = useState(false)
-
-  function login(){
-    setIsLoggedIn(true);
-  }
-
-  function logout(){
-    setIsLoggedIn(false);
-  }
+  const login = useLoginContext();
+  const isLoggedIn = login.isLoggedIn;
 
   useLogger(isLoggedIn);
 
-  return (
+  const history = useUserPageHistory();
+
+  return(
     <div className="App">
-      <Header login={login} logout={logout}/>
-      <Body isLoggedIn={isLoggedIn}/>
+      <Header history={history}/>
+      <Routes>
+        <Route path="/" element={<Body />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/picture" element={<Picture />} />
+        <Route path="/history" element={<History history={history.userHistory} />} />
+      </Routes>
       <Footer/>
     </div>
-  );
+  )
 }
+
 
 export default App;

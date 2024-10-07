@@ -1,7 +1,7 @@
 import React, {useCallback, useState} from 'react'
 import Modal from './Modal/Modal'
 
-export default function LoginButton(props) {
+export default function LoginButton() {
 
   const [modal, setModal] = useState(false);
 
@@ -15,7 +15,7 @@ export default function LoginButton(props) {
 
   return (
     <div class="customButton">
-      {modal === true? <Modal closeModal={modalClose} loginFunction={props.onClick} setUserName={props.setUserName}/>: ""}
+      {modal === true? <Modal closeModal={modalClose} />: ""}
       <button onClick={modalOpen}>Login</button>
     </div>
   )

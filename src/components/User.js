@@ -1,10 +1,15 @@
 import React from 'react'
-import avatar from '../image/avatar.jpg'
+import { useUser } from './User/UserContext'
 
 export default function User() {
+
+  const user = useUser();
+  const username = user.username;
+  const avatar = user.avatar;
+
   return (
     <div class="userInfo">
-      Oleh
+      {username}
       <img src={avatar} alt="avatar"/>
     </div>
   )
