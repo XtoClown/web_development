@@ -1,7 +1,7 @@
 import './App.css';
-import Header from './components/Header';
+import Header from './components/HeaderElements/Header';
 import Body from './components/Homepages/Body';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import React, { useEffect, useState } from 'react';
 import UserProvider from './components/User/UserContext';
 import LoginProvider, { useLoginContext } from './components/User/LoginContext';

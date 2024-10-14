@@ -1,0 +1,72 @@
+.productWindow{
+    border: 0.2vmin solid #a89bc5;
+    height: 98%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.product{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5%;
+}
+.productIcon{
+    height: 40%;
+    aspect-ratio: 1 / 1;
+    border: 0.2vmin solid #a89bc5;
+}
+.productIcon img{
+    height: 100%;
+    width: 100%;
+}
+.productName{
+    height: 10%;
+    width: 70%;
+    border: 0.2vmin solid #a89bc5;
+    font-size: 3vmin;
+    font-weight: 600;
+    color: #a89bc5;
+    font-family: 'JetBrains Mono';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.productInfo{
+    height: 35%;
+    width: 70%;
+    border: 0.2vmin solid #a89bc5;
+    font-size: 1.9vmin;
+    font-weight: 600;
+    color: #a89bc5;
+    font-family: 'JetBrains Mono';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.commentary{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.commentaryPlace{
+    height: 98%;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vmin;
+    overflow-y: auto;
+    flex-grow: 1;
+}

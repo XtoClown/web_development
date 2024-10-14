@@ -1,0 +1,70 @@
+.commentatorInfo{
+    height: 86%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+}
+.userAvatar{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userAvatar img{
+    height: 100%;
+    aspect-ratio: 1 / 1;
+}
+.userName{
+    font-family: 'JetBrains Mono';
+    font-size: 1.75vmin;
+    font-weight: 600;
+    color: #a89bc5;
+}
+
+.commentPlace{
+    height: 100%;
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.commentText{
+    height: 86%;
+    width: 98%;
+    background-color: #40325c;
+    overflow: auto;
+    text-indent: 2vmin;
+    font-family: 'JetBrains Mono';
+    font-size: 1.75vmin;
+    font-weight: 600;
+    color: #a89bc5;
+}
+
+.trashHolder{
+    width: 14%;
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+}
+.trash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    background-color: #40325c;  
+}
+.trash img{
+    width: 60%;
+    aspect-ratio: 1 / 1;
+}

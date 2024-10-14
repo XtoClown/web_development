@@ -1,0 +1,40 @@
+.newComment{
+    width: 100%;
+    margin-top: 4%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.newComment > textarea{
+    height: 70%;
+    width: 90%;
+    border: 0.2vmin solid #a89bc5;
+    background-color: #40325c;
+    font-size: 2vmin;
+    font-weight: 600;
+    text-indent: 1vmin;
+    color: #a89bc5;
+    font-family: 'JetBrains Mono';
+    resize: none;
+}
+.newComment > textarea::placeholder{
+    color: #756d88;
+}
+.newComment > button{
+    height: 25%;
+    width: 40%;
+    background-color: #a89bc5;
+    border: 0px;
+    border-radius: 0px;
+    font-family: 'JetBrains Mono';
+    font-size: 3vmin;
+    font-weight: 600;
+    color: #181323;
+    cursor: pointer;
+}
+.newComment > button:disabled{
+    background-color: #40325c;
+}
