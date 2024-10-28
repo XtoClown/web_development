@@ -48,7 +48,7 @@ const Input = styled.input`
   }
 `
 
-export default function Modal(props) {
+export default function ModalComponent(props) {
 
   const user = useUser();
   const setUser = useSetUser();

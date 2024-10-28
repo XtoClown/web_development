@@ -4,13 +4,16 @@ import Product from '../Product/Product';
 import Converter from '../Converter/Converter';
 import { Processor } from '../DataModel/Processors';
 import style from './Homepages.module.css'
+import { useThemeContext } from '../ThemeContext/ThemeContext';
 
 export default function Body() {
 
   let amdRyzenFive = new Processor("Ryzen 5", "AMD AM5", "5 nm", "6 cores", "12 threads", "3.7 GHz", "5 GHz", "384 KB", "6144 KB", "32 MB", "65 W");
 
+  const theme = useThemeContext();
+
   return (
-    <div className={style.appBody}>
+    <div className={style.appBody} style={{ backgroundColor: theme.primaryColor }}>
       <Product name={"AMD Ryzen 5 Raphael 7500F"} productObject={amdRyzenFive.processorInfo()} image={productImage}/>
       <Converter/>
     </div>

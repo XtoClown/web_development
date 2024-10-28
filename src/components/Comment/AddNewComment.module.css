@@ -21,7 +21,7 @@
     resize: none;
 }
 .newComment > textarea::placeholder{
-    color: #756d88;
+    color: #828181;
 }
 .newComment > button{
     height: 25%;

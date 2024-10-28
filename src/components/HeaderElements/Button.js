@@ -1,11 +1,14 @@
 import React from 'react'
 import style from './Button.module.css'
+import { useThemeContext } from '../ThemeContext/ThemeContext'
 
 export default function Button(props) {
 
+  const theme = useThemeContext()
+
   return (
     <div className={style.customButtonDiv} onClick={props.onClick}>
-      <button>{props.text}</button>
+      <button style={{ backgroundColor: theme.primaryColor, color: theme.decorColor }}>{props.text}</button>
     </div>
   )
 }

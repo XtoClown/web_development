@@ -6,6 +6,8 @@ import logoImage from '../../image/logo.png'
 import Button from './Button'
 import { useLoginContext } from '../User/LoginContext'
 import style from './Header.module.css'
+import { Switch } from 'antd'
+import { useThemeContext } from '../ThemeContext/ThemeContext'
 
 export default function Header(props) {
 
@@ -14,14 +16,17 @@ export default function Header(props) {
 
   const history = props.history;
 
+  const theme = useThemeContext();
+
   return (
-    <div className={style.header}>
-      <div className={style.logo}><img src={logoImage}/></div>
+    <div className={style.header} style={{ backgroundColor: theme.primaryColor, borderColor: theme.decorColor }}>
+      <div className={style.logo} style={{ borderColor: theme.decorColor }}><img src={logoImage}/></div>
       <div className={style.headerButtons}>
         <Button text={"Home"} onClick={() => history.handlerPageNavigation()}/>
-        <Button text={"Support"} onClick={() => history.handlerPageNavigation("/support")}/>
+        <Button text={"Admin"} onClick={() => history.handlerPageNavigation("/admin")}/>
         <Button text={"Picture"} onClick={() => history.handlerPageNavigation("/picture")}/>
         <Button text={"History"} onClick={() => history.handlerPageNavigation("/history")}/>
+        <Switch defaultChecked checkedChildren="Dark" unCheckedChildren="White" onChange={theme.handleThemeChange}/>
       </div>
       <div className={style.account}>
         {isLoggedIn ? <LogoutButton /> : <LoginButton />}

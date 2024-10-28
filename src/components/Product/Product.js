@@ -5,6 +5,7 @@ import { useUser } from '../User/UserContext';
 import { useLoginContext } from '../User/LoginContext';
 import style from './Product.module.css'
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { useThemeContext } from '../ThemeContext/ThemeContext';
 
 export default function Product(props) {
 
@@ -35,12 +36,14 @@ export default function Product(props) {
     setComments((comments) => comments.filter((comment) => comment.id !== id))
   }, comments)
 
+  const theme = useThemeContext()
+
   return (
-    <div class={style.productWindow}>
+    <div class={style.productWindow} style={{ borderColor: theme.decorColor }}>
       <div class={style.product}>
-          <div class={style.productIcon}><img src={props.image} alt="productImage"/></div>
-          <div class={style.productName}>{props.name}</div>
-          <div class={style.productInfo}><ul>{props.productObject.map((item, index) => 
+          <div class={style.productIcon} style={{ borderColor: theme.decorColor }}><img src={props.image} alt="productImage"/></div>
+          <div class={style.productName} style={{ borderColor: theme.decorColor, color: theme.decorColor}}>{props.name}</div>
+          <div class={style.productInfo} style={{ borderColor: theme.decorColor, color: theme.decorColor}}><ul>{props.productObject.map((item, index) => 
               <li key={index}>
                   {item}
               </li>)}</ul>

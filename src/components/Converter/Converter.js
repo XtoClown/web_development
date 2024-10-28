@@ -1,6 +1,7 @@
 import React, {useCallback, useState} from 'react'
 import Currency from './Currency'
 import style from './Converter.module.css'
+import { useThemeContext } from '../ThemeContext/ThemeContext';
 
 export default function Converter() {
 
@@ -37,8 +38,10 @@ export default function Converter() {
   const uah = currency === "usd" ? tryConvert(money, toUah) : money;
   const usd = currency === "uah" ? tryConvert(money, toUsd) : money;
 
+  const theme = useThemeContext();
+
   return (
-    <div className={style.converter}>
+    <div className={style.converter} style={{ borderColor: theme.decorColor }}>
       <Currency currency={"uah"} money={uah} onMoneyChange={handeUahChange}/>
       <Currency currency={"usd"} money={usd} onMoneyChange={handleUsdChange}/>
     </div>

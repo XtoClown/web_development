@@ -9,6 +9,8 @@ import { Route, Routes, Link, useNavigate } from 'react-router-dom'
 import Support from './components/Homepages/Support';
 import Picture from './components/Homepages/Picture';
 import History from './components/Homepages/History';
+import ThemeProvider from './components/ThemeContext/ThemeContext';
+import AdminPage from './components/Homepages/AdminPage';
 
 function useLogger(isLoggedIn){
   useEffect( () => {
@@ -35,7 +37,9 @@ function App() {
   return (
     <UserProvider>
       <LoginProvider>
-        <Content/>
+        <ThemeProvider>
+          <Content/>
+        </ThemeProvider>
       </LoginProvider>
     </UserProvider>
   );
@@ -55,6 +59,7 @@ function Content(){
       <Header history={history}/>
       <Routes>
         <Route path="/" element={<Body />} />
+        <Route path="/admin" element={<AdminPage />} />
         <Route path="/support" element={<Support />} />
         <Route path="/picture" element={<Picture />} />
         <Route path="/history" element={<History history={history.userHistory} />} />

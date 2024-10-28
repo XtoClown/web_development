@@ -1,7 +1,10 @@
 import React, {useState, useEffect, useRef} from 'react'
 import style from './Currency.module.css'
+import { useThemeContext } from '../ThemeContext/ThemeContext';
 
 export default function Currency(props) {
+
+  const theme = useThemeContext();
 
   const currencyNames = {
     usd: "US Dollar",
@@ -20,7 +23,7 @@ export default function Currency(props) {
   const labelRef = useRef(null);
   const inputRef = useRef(null);
   const [locker, setLocker] = useState(true);
-  const [color, setColor] = useState("#d78bf7");
+  const [color, setColor] = useState(theme.highlightColor);
 
   useEffect( () => {
     if(!locker){
@@ -29,7 +32,7 @@ export default function Currency(props) {
       inputRef.current.style.color = color;
       setColor(temp);
     }
-  }, [focus])
+  }, [focus, theme.highlightColor, theme.decorColor])
 
   function handleInputFocus(){
     setLocker(false);
@@ -42,8 +45,8 @@ export default function Currency(props) {
 
   return (
     <div className={style.currency}>
-      <label ref={labelRef} for="moneyInput">{currencyNames[currency]}</label>
-      <input ref={inputRef} id="moneyInput" onFocus={handleInputFocus} onBlur={handleInputBlur} value={money} onChange={handleMoneyChange}/>
+      <label ref={labelRef} for="moneyInput" style={{ color: theme.decorColor }}>{currencyNames[currency]}</label>
+      <input ref={inputRef} id="moneyInput" onFocus={handleInputFocus} onBlur={handleInputBlur} value={money} onChange={handleMoneyChange} style={{ backgroundColor: theme.secondaryColor, borderColor: theme.decorColor, color: theme.decorColor }}/>
     </div>
   )
 }
