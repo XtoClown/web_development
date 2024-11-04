@@ -1,0 +1,32 @@
+.holder{
+    height: 30%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.holder label{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.customField{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2vmin;
+    font-family: 'JetBrains Mono';
+}
+
+.error{
+    color: #991212;
+    font-size: 1.75vmin;
+}

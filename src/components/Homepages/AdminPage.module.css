@@ -1,0 +1,25 @@
+.appBody{
+    height: 90%;
+    width: inherit;
+    background-color: #181323;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%
+}
+.appBody > div{
+    height: 100%;
+    width: 100%;
+}
+
+.customCheckboxGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.customCheckboxGroup label{
+    margin-bottom: 5%;
+    font-size: 2vmin;
+}

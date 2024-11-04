@@ -1,0 +1,27 @@
+.currency{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.currency input{
+    height: 40%;
+    width: 60%;
+    border: 0.2vmin solid #a89bc5;
+    background-color: #40325c;
+    font-size: 2vmin;
+    font-weight: 600;
+    text-indent: 2vmin;
+    color: #a89bc5;
+    font-family: 'JetBrains Mono';
+}
+.currency label{
+    font-size: 2vmin;
+    font-weight: 600;
+    text-indent: 2vmin;
+    color: #a89bc5;
+    font-family: 'JetBrains Mono';
+}

@@ -1,0 +1,50 @@
+.customForm{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    font-family: 'JetBrains Mono';
+}
+.customForm button{
+    height: 5vh;
+    width: 40%;
+    font-size: 2.5vmin;
+    font-family: 'JetBrains Mono';
+    margin: 3vmin;
+}
+
+.customInput{
+    height: 15%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    font-size: 2vmin;
+}
+.customInput label{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.customField{
+    height: "7vh";
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vmin;
+    font-family: 'JetBrains Mono';
+}
+
+.error{
+    color: #991212;
+    font-size: 1.75vmin;
+}
