@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Input from './components/Input';
+import { useDispatch, useSelector } from 'react-redux';
+import { addTodo } from './store/todoSlice'
+import TaskList from './components/TaskList';
+import Filter from './components/Filter';
 
 function App() {
+
+  const [text, setText] = useState("")
+  const [price, setPrice] = useState("")
+  const [type, setType] = useState("")
+
+  const dispatch = useDispatch()
+  const addTask = () => {
+    dispatch(addTodo({text, price, type}))
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Input text={text} price={price} type={type} handleInputText={setText} handleInputPrice={setPrice} handleInputType={setType} handleSubmit={addTask}/>
+      <Filter/>
+      <TaskList />
     </div>
   );
 }
