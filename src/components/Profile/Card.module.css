@@ -1,0 +1,123 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #3C3E3F;
+    border-radius: 0.5vmin;
+    background-size: 90% 70%;  
+    background-position: center;  
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 30%;
+    width: 92%; 
+    color: #6f6f6f;
+    font-weight: 500;
+    font-size: 1.5vmin;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.weaponName{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.skinName{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.quality{
+    height: 50%;
+    width: 92%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    font-weight: 500;
+    color: #6f6f6f;
+}
+.footer{
+    margin-top: -3%;
+    height: 15%;
+    width: 92%; 
+    display: flex;
+    flex-direction: row;
+}
+.float{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: 1.25vmin;
+    font-weight: 500;
+    color: #6f6f6f;
+}
+.lock{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.lockBody{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.25vmin;
+    margin-top: -4%;
+}
+.lockImage{
+    height: 80%;
+    aspect-ratio: 1;
+    border-radius: 0.5vmin;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.lockImage img{
+    height: 100%;
+    width: 100%;
+    filter: invert(30%);
+}
+.unlockImage{
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 0.5vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.unlockImage img{
+    height: 80%;
+    width: 80%;
+    filter: invert(30%) sepia(100%) saturate(500%) hue-rotate(120deg) contrast(100%);
+    margin-right: -4%;
+}
+.lockText{
+    height: 100%;
+    width: auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #6f6f6f;
+    font-size: 1.75vmin;
+}

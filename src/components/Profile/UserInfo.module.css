@@ -1,0 +1,113 @@
+.userContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.avatar{
+    height: 75%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 0.5vmin;
+}
+.avatar img{
+    height: 100%;
+    width: 100%;
+}
+.info{
+    height: 75%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.awards{
+    height: 75%;
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+.virtualOpen{
+    height: 40%;
+    aspect-ratio: 1;
+}
+.username{
+    width: 91%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 3vmin;
+    font-weight: bolder;
+}
+.finance{
+    height: 75%;
+    width: 91%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 1%;
+}
+.earned{
+    height: 60%;
+    width: 28%;
+    background-color: #28312C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #8DD294;
+    border-radius: 0.5vmin;
+}
+.text{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 2.25vmin;
+}
+.infoText{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 3vmin;
+}
+.spent{
+    height: 60%;
+    width: 28%;
+    background-color: #362828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #d95252;
+    font-size: 3vmin;
+    font-weight: bold;
+    border-radius: 0.5vmin;
+}
+.balance{
+    height: 60%;
+    width: 28%;
+    background-color: #525014;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ebe578;
+    font-size: 3vmin;
+    font-weight: bold;
+    border-radius: 0.5vmin;
+}

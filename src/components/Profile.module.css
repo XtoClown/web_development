@@ -1,0 +1,43 @@
+.container{
+    height: 300vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D1F20;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.profileCont{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 100%;
+    width: 70%;
+    background-color: #232527;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5vmin; 
+}
+.profile{
+    height: 27vh;
+    width: 100%;
+}
+.inventory{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.market{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+}

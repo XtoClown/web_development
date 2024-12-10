@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Body from './components/Body';
+import ItemsProvider from './components/Context/ItemsContext';
+import ItemsSelectedProvider from './components/Context/ItemsSelectedContext';
+import UserProvider from './components/Context/UserContext';
+import Header from './components/Header';
+import Profile from './components/Profile';
+import InventoryProvider from './components/Context/InventoryContext';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ItemsProvider>
+      <ItemsSelectedProvider>
+        <UserProvider>
+          <InventoryProvider>
+            <div className="App">
+              <Header/>
+              <Routes>
+                <Route path="/" element={<Body/>}/>
+                <Route path="/profile" element={<Profile/>}/>
+              </Routes>
+            </div>
+          </InventoryProvider>
+        </UserProvider>
+      </ItemsSelectedProvider>
+    </ItemsProvider>
   );
 }
 

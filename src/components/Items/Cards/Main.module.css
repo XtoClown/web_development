@@ -1,0 +1,180 @@
+.container{
+    width: 10.58%;
+    aspect-ratio: 1;
+    margin-top: 0.5%;
+    margin-bottom: -0.1%;
+}
+.card{
+    width: 10.3%;
+    height: 32%;
+    margin-top: 0.5%;
+    margin-left: 0.35%;
+    margin-bottom: -0.1%;
+    background-size: 90% 70%;  
+    background-position: center;  
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #232527;
+    border-radius: 0.5vmin;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.price{
+    width: 47.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: #51AA77;
+}
+.info{
+    width: 47.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.info img{
+    height: 60%;
+    aspect-ratio: 1;
+    filter: invert(30%);
+}
+.footer{
+    width: 100%;
+    height: 17%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3.5%;
+}
+.float{
+    width: 47.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 1.25vmin;
+    font-weight: 500;
+    color: #6f6f6f;
+}
+.lock{
+    width: 47.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lockBody{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.25vmin;
+    margin-top: -4%;
+}
+.lockImage{
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 0.5vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.lockImage img{
+    height: 80%;
+    width: 80%;
+    filter: invert(30%);
+}
+.unlockImage{
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 0.5vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.unlockImage img{
+    height: 80%;
+    width: 80%;
+    filter: invert(30%) sepia(100%) saturate(500%) hue-rotate(120deg) contrast(100%);
+    margin-right: -4%;
+}
+.lockText{
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #6f6f6f;
+    font-size: 1.75vmin;
+}
+.body{
+    width: 95%;
+    height: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    gap: 1.5%;
+    font-size: 1.6vmin;
+}
+.quality{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-weight: 500;
+    color: #6f6f6f;
+}
+.owner{
+    height: 25%;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 0.5vmin;
+    color: #232527;
+}
+.owner img{
+    height: 80%;
+    width: 80%;
+    border-radius: 0.5vmin;
+}
+.discount{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 1.35vmin;
+}

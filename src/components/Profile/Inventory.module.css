@@ -1,0 +1,44 @@
+.inventoryContainer{
+    height: 100%;
+    width: 93.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2.5vmin;
+    color: white;
+    font-weight: 600;
+}
+.inventoryItems{
+    height: 90%;
+    width: 100%;
+    border-radius: 0.5vmin;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5%;
+    row-gap: 1%;
+}
+.inventoryItems::-webkit-scrollbar {
+    width: 0px; 
+    height: 0px;
+}
+.card{
+    height: 32.665%;
+    width: 12.062%;
+    border-radius: 0.5vmin;
+}
+.placeholder{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5vmin;
+    background-color: #3C3E3F;
+}

@@ -1,0 +1,638 @@
+[
+    {
+        "weaponName": "AK-47",
+        "skinName": "Wild Lotus",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszJegJL_9C3moS0kfv7IbrdqWdY781lteXA54vwxgXn-0A5ZG-nJNeSdVdsYF7Uq1W4kOm-18e57c_InSEy7CFztiqImUepwUYbUpyroPk",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "AK-47",
+        "skinName": "Fire Serpent",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszOeC9H_9mkhIWFg8j1OO-GqWlD6dN-teXI8oThxg3n8kM5ZD-nJI-UJ1c2MFjU-VXolezugZXpvMyan3I3v3Qjty2OlhKpwUYbndZ_4hw",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "AK-47",
+        "skinName": "Gold Arabesque",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhnwMzJemkV09u5mIS0luX1Mb7Ch35U18l4jeHVyoD0mlOx5UM4YjvzdoTHJFVvNw3YrlO_xebsgpa7u57Pzidk7nQm53zUmx21g01SLrs4iSV9vgU",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "AK-47",
+        "skinName": "The Empress",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhnwMzJemkV09m7hJKOhOTLP7LWnn8f7p0gjrnDpdvxi1Xn80JqYGygLI_DdQJsMgyC_AO4xb_p0ce66ZXImmwj5Hei5N5mVw",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "AK-47",
+        "skinName": "Fuel Injector",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhnwMzJemkV08-jhIWZlP_1IbzUklRd4cJ5nqeZ9Nzx3Qex80c-ZGn3LYWTdFc9NFuEqAO8xLrtjMC4u56dznQ36XVw-z-DyK64IMQ5",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "AK-47",
+        "skinName": "Vulcan",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszJemkV086jloKOhcj4OrzZgiUEsJYnibqZ8d-l2wO1_hJtNWDzctDBIQ5taAzQqFi6wujo1se06cud1zI97ZAmS4pT",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "AK-47",
+        "skinName": "Redline",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszJemkV09-5lpKKqPv9NLPF2G1UsZFw373Cp96kigbgrUBuY22nLIWUcgRvN17Y8lnrlbrm157quJ3XiSw0p7BLliM",
+        "type": "Rifle",
+        "rarity": "Classified"
+    },
+    {
+        "weaponName": "M4A4",
+        "skinName": "Howl",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwT09S5g4yCmfDLP7LWnn8f65Mli7DH9tXziQTgqUY4YmmnINSUJwQ-YVnT_wS7yOzngMW07ZrOmmwj5HeObpQQtA",
+        "type": "Rifle",
+        "rarity": "Contraband"
+    },
+    {
+        "weaponName": "M4A4",
+        "skinName": "Poseidon",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszYfi5H5di5mr-HnvD8J_WCkmkEvp0pi7zDodv3jAHj-UM5ZGr7INfHJAc9MlzV-FK_kO281pa_ot2XnrA-A3kA",
+        "type": "Rifle",
+        "rarity": "Classified"
+    },
+    {
+        "weaponName": "M4A4",
+        "skinName": "The Emperor",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhnwMzFJTwW09m7hIWZmOXLP7LWnn9u5MRjjeyPo933jQDs_kZlMWmiIdKQdVM-ZVnQ8ge2xui5gMXqu5jMnCFr63Nx7WGdwUKmIT3TEw",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "M4A4",
+        "skinName": "Neo-Noir",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW09Kzm7-FmP7mDLfYkWNFpsch2evFo9Wl2lflr0RtZzilJNTBdgE3ZAyDr1nrx-vs0cK9vsmamnt9-n51UgTl8ms",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "M4A4",
+        "skinName": "Buzz Kill",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhnwMzFJTwW08-zl5SEhcj4OrzZgiUFu8By27iQ8Iqg3Qyy_Ec_Z2CmJ4eTcAdqZV3VrFi9k7_rhJK7vZmc1zI97eGSYpLn",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "M4A4",
+        "skinName": "Tooth Fairy",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW082jkYWFkfb9IaLummJW4NFOhujT8om7jQGyqUNuYWj3IYKRcFVoaV2Cq1W2xLrn1pXv6snNn3RgsyEr5neInwv330_EUH3GMA",
+        "type": "Rifle",
+        "rarity": "Classified"
+    },
+    {
+        "weaponName": "M4A4",
+        "skinName": "Dragon King",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwW0924l4WYg-X1P4Tdn2xZ_ItyiO2Yot-n3gztrUduMW6icdWcc1RqM1HR_FfswLu6gZe4tZrNmiBkpGB8smM7Zio1",
+        "type": "Rifle",
+        "rarity": "Classified"
+    },
+    {
+        "weaponName": "AWP",
+        "skinName": "Gungnir",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FABz7PLfYQJF-dKxmomZqPv9NLPFqWdQ-sJ0xO-ZpY-n0AHt_0M6ZGygd9eQegE9YAzYrwDqx7y7jcTpvc7IwSdgsnI8pSGKcZwC8Qk",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "AWP",
+        "skinName": "Dragon Lore",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAR17P7NdTRH-t26q4SZlvD7PYTQgXtu5Mx2gv2P9o6migzl_Us5ZmCmLYDDJgU9NA6B81S5yezvg8e-7cycnXJgvHZx5WGdwUJqz1Tl4g",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "AWP",
+        "skinName": "Medusa",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAR17P7NdShR7eO3g5C0m_7zO6-fxj5SvsMkib-W9N7zilLjr0NoYW_wI4OTelRvYwmC-FTrxeq915a074OJlyVOUzvCjQ",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "AWP",
+        "skinName": "The Prince",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FABz7PLfYQJH4t27kYy0m_7zO6_ummpD78A_2rnA8Nutile1_kNrN2rwIY7GdVQ2Y1mEqVe4x7vthJe-v5zPy3Jlsz5iuygIm51GTw",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "AWP",
+        "skinName": "Fade",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAZh7PLfYQJE7dizq4yCkP_gDLfQhGxUppF0076Z8N2miwfn8kU_YjvycYWXJw83YgmGqFW4w7281MW5ucnOwXF9-n51Xlh34oU",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "AWP",
+        "skinName": "Lightning Strike",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAZt7P_BdjVW4tW4k7-KgOfLP7LWnn8fu5In27GYod2l21Gx-xU5MGDzddCRdw83Y1DW-VS3wu291JS76Z7PnWwj5Hc0AjJzVA",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "AWP",
+        "skinName": "Wildfire",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAR17PLfYQJV5dCykomZksj4OrzZglRd6dd2j6eXpImm3lbl-RY-Z2yiJ4-dcQBtNQrVqADqk-u-gJW6u57Oz3pnsiYj-z-DyLDxQcXO",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "M4A1-S",
+        "skinName": "Knight",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3mb-GkuP1P6jummJW4NE_2-zHpN2g3Vfj-kFvZ2ChJtfEJ1M2YF_Sq1LqkOm515fpup-cyHFluD5iuyj8q1fJzg",
+        "type": "Rifle",
+        "rarity": "Classified"
+    },
+    {
+        "weaponName": "M4A1-S",
+        "skinName": "Welcome to the Jungle",
+        "image": "https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO1gb-Gw_alDKjfl2BU18l4jeHVyoD0mlOx5RU_NzylJ4GdewU2YlHYq1S-x7rs0Je7v8jOz3RguCIn4nbVmRLihhxSLrs4aeNPV4w",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "M4A1-S",
+        "skinName": "Hot Rod",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3mr-ZkvPLPu_Qx3hu5Mx2gv2P8I-g0VHtqUNlNmimLdCRdFdoYFCErwC4xLu6jJbpuc-dnydq73Jw5GGdwULhEbgmIQ",
+        "type": "Rifle",
+        "rarity": "Classified"
+    },
+    {
+        "weaponName": "M4A1-S",
+        "skinName": "Icarus Fell",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO-jb-ClPbmJqjummJW4NE_3ujHpY2sigXl-UFoZGj7JYCXdgQ4YVnQ-1Lqxenn1MLpuszJz3tk6D5iuyjCqdNpmA",
+        "type": "Rifle",
+        "rarity": "Restricted"
+    },
+    {
+        "weaponName": "M4A1-S",
+        "skinName": "Fade",
+        "image": "https://pub-5f12f7508ff04ae5925853dee0438460.r2.dev/data/csgo/resource/flash/econ/default_generated/weapon_m4a1_silencer_aa_fade_m4a1s_light_png.png",
+        "type": "Rifle",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "M4A1-S",
+        "skinName": "Nightmare",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO1gb-Gw_alIITfn2xZ_MhwmOz--YXygED6_Us5a2DxcdSRJlNqMAzY-li8weu-gMDovJufyHVmuCklsX6PyhTk0wYMMLLeV8xVfw",
+        "type": "Rifle",
+        "rarity": "Classified"
+    },
+    {
+        "weaponName": "M4A1-S",
+        "skinName": "Blue Phosphor",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhz2v_Nfz5H_uO3mb-Gw_alIITTmn5U-8h-gez--YXygECLpxIuNDztJobGcQ9tNV7Z_1m5kri60ZC1tcvInHM26HIi4CnZy0awgh0ZbuM7g-veFwtFvUBonA",
+        "type": "Rifle",
+        "rarity": "Classified"
+    },
+    {
+        "weaponName": "USP-S",
+        "skinName": "Kill Confirmed",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ09-jq5WYh8j_OrfdqWhe5sN4mOTE8bP5gVO8v109YDj0do7Dcw9taA6C81K_k-_n1pfp6MnOnSZhu3Qm4SrfzBbkg01McKUx0iC2I2fd",
+        "type": "Pistol",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "USP-S",
+        "skinName": "Orange Anolis",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ0927q4yCjfbmN4TDk29u5Mx2gv3--Y3nj1H680Nuaz-iLNWQdwdrN16F-Ffswri50561vsjByHFr6CUg7HuMyxLh1QYMMLKjyqxp3w",
+        "type": "Pistol",
+        "rarity": "Restricted"
+    },
+    {
+        "weaponName": "USP-S",
+        "skinName": "Printstream",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_printstream_light_large.9f5bcd4f94db3d965b3b2e7c3aace470e9466380.png",
+        "type": "Pistol",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "USP-S",
+        "skinName": "The Traitor",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ09ulq5WYh-TLO7rfkW5V5cR_teXI8oTht1i1uRQ5fTjzJY6cclBqNArY-VK7xe3o0cC77cvPz3Zi6ydw4Snbyhfh0ksdbeFxxavJpJcZ4v4",
+        "type": "Pistol",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "USP-S",
+        "skinName": "Neo-Noir",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ09-jq5WYh-TLPbTYhFRd4cJ5nqfE8dzz3Abg_hBtMWDzJ4fGdFI6YFjT-lHtlOi70Jfqvcifm3Vmvigj-z-DyA8aEmbE",
+        "type": "Pistol",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "USP-S",
+        "skinName": "Cortex",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ09-jq5WYh8j3Jq_ummJW4NE_376S84-tiwHt_0VqZDzwI47DcVNqaFDZ-gLrxea918S5tJucwSY2uj5iuygjNe-uOA",
+        "type": "Pistol",
+        "rarity": "Classified"
+    },
+    {
+        "weaponName": "USP-S",
+        "skinName": "Purple DDPAT",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ0927q4SPh_bgDKvEhHtd7fp9g-7J4bP5iUazrl1lamr7JoPBIVJtYFnQ-gLqkLjmh8S9vZScwXAxuHJz4nrbzha_000dcKUx0qP_CJgD",
+        "type": "Pistol",
+        "rarity": "Mil-Spec"
+    },
+    {
+        "weaponName": "Glock-18",
+        "skinName": "Fade",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0vL3dzxG6eO6nYeDg7miYr7VlWgHscN32LyT8dmm31XgrxdtZzvzJYDGIFM2Y16D-FfvlOu9m9bi66Oq9HyE",
+        "type": "Pistol",
+        "rarity": "Restricted"
+    },
+    {
+        "weaponName": "Glock-18",
+        "skinName": "Gamma Doppler Emerald",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0v73dDBH_t26kL-GluX2P77YjG5V18J9herKyoD8j1yg5UU9YmulII6cJABoMlvU-FLoxe7m0ZHq7Z3NyiZm7HRxt3iPlkDmgxpSLrs4ffL9gek",
+        "type": "Pistol",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Glock-18",
+        "skinName": "Gamma Doppler Phase 1",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0v73djxP4d2JkI-bh_vxIYTBnmpC7ZROjeXO9ofKhF2zowdyMWr6IYeQIwU8NFiGqAXtkr28jcO1vMvAnXRmuXQm5nuJnhKx1U5FOvsv26KW7OPGDg",
+        "type": "Pistol",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Glock-18",
+        "skinName": "Gamma Doppler Phase 2",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0v73djxP4d2JkI-bh_vxIYTBnmpC7ZdOjeXO9ofKhF2zowdyZzjxcYLAcg85ZVvW81fqk-u615G4vpvBy3Vhv3VzsyvUyUfh1BEfOPsv26IorI3Qlg",
+        "type": "Pistol",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Glock-18",
+        "skinName": "Gamma Doppler Phase 3",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0v73djxP4d2JkI-bh_vxIYTBnmpC7ZZOjeXO9ofKhF2zowdyMGGlLdeRIwA7YwuF_lbqxbq6057pu5_An3Jh7iQltHncnha01RkZZ_sv26Jen3bHMA",
+        "type": "Pistol",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Glock-18",
+        "skinName": "Gamma Doppler Phase 4",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0v73djxP4d2JkI-bh_vxIYTBnmpC7ZFOjeXO9ofKhF2zowdyNj36d4TBJwRoNw3Y8lS8wO3phZa-v5XMmiQw73Uj4XaJyxe3gx1La_sv26Lb-wHJ3Q",
+        "type": "Pistol",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Glock-18",
+        "skinName": "Neo-Noir",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposbaqKAxf0Ob3djFN79eJmo-Chcj4OrzZglRd6dd2j6fCrN_x2Fe2rRJrZW6nJdCdcARvZFuFqAftkO67gJHquZ7LyXpr6SQq-z-DyI0SmLqC",
+        "type": "Pistol",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Desert Eagle",
+        "skinName": "Blaze",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLJTjtO7dGzh7-HnvD8J_XVkjoFuMYiiLqUrI-k3le3r0s5amj7d9eTI1I-M1rW-Fm_xO-50Jfvot2XnhS4_w8U",
+        "type": "Pistol",
+        "rarity": "Restricted"
+    },
+    {
+        "weaponName": "Desert Eagle",
+        "skinName": "Sunset Storm 壱",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTi5H7c-im5KGqPX4PLTVqWdY781lxLjErN7031Hl8hU4NmnyINOQIwE-aVvSq1i9k-rrhcO8753KzyZmsyY8pSGKb3xK3i0",
+        "type": "Pistol",
+        "rarity": "Restricted"
+    },
+    {
+        "weaponName": "Desert Eagle",
+        "skinName": "Sunset Storm 弐",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTi5H7c-im5KGqOT8PLHeqWdY781lxL7F89jzjQfs_Rc9MGj7ddOXIw5tYg3V-gXoxrq515-9upidnCE2siM8pSGKLbOD2eI",
+        "type": "Pistol",
+        "rarity": "Restricted"
+    },
+    {
+        "weaponName": "Desert Eagle",
+        "skinName": "Emerald Jörmungandr",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTjdN_tGJk5KOkvnLP7LWnn9u5MRjjeyP8Y6k2ADhrRY5YzilJoXDcA5sM1yBrAfqwOjr0Za76Z6YmCY3viJ3tmGdwUKSaOiVgw",
+        "type": "Pistol",
+        "rarity": "Restricted"
+    },
+    {
+        "weaponName": "Desert Eagle",
+        "skinName": "Crimson Web",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PvRTipH7s-JkIGZnPLmDLfYkWNFppJz0-rDpNX3iVfh-RY-Nm6gII_AcVdsNQ6C-gK6we661JS5vsucn3p9-n51o0mKsnM",
+        "type": "Pistol",
+        "rarity": "Restricted"
+    },
+    {
+        "weaponName": "Desert Eagle",
+        "skinName": "Cobalt Disruption",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLFTjlG_N2ikIWFhPLLI77QlWRS4_p9g-7J4cL03AzirxFvYm_zdtXBIVA4MwvVq1Dqye_ojMW4uZ2byXA1vCIi5HrcgVXp1tntQJzL",
+        "type": "Pistol",
+        "rarity": "Classified"
+    },
+    {
+        "weaponName": "Desert Eagle",
+        "skinName": "Printstream",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PDdTjlH7duJhJKCmePnJ6nUl2Zu5Mx2gv3--Y3nj1H6qUdqazz2IoCVdVJvYlGGqFPtyea6gZ-_uJjPy3tj7HQnsS3cmBHkiQYMMLIjaxhhAw",
+        "type": "Pistol",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Karambit",
+        "skinName": "Gamma Doppler Emerald",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlY20kvrxIbrdklRc6ddzhuzI74nxt1i9rBsofT-ld9LDJgVsY1nX-QLtlejqg5bu7Zydm3Q1uSVzsXmOmUe3ghFKauBxxavJdWR7Gog",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Karambit",
+        "skinName": "Doppler Ruby",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlY20heL2KoTcl3lT5MB4kOzFyoD8j1yg5UNkaz_xIdfEd1A5aQ3U-lPskunphJHptZvPwSM26CUht3_UmUe3gEpSLrs4ZlidBgY",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Karambit",
+        "skinName": "Doppler Sapphire",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlY20hPbkI7PYhG5u5cRjiOXE_JbwjGu4ohQ0J3egI4ORcQNqYw3W8la5w-frgJK77ZXKwCQysyVwtnbayxKzhxlIarRum7XAHvqFh2jA",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Karambit",
+        "skinName": "Doppler Black Pearl",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlY20lfv1MLDBk2pD5Pp8i_vD-Yn8klGwlB81NDG3OtWTJAdsNVCG-Vjvwrvsh8Dv6szBznVivSMnt3eOlx22hhhNbu1o0PaACQLJyiL9rI8",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Karambit",
+        "skinName": "Fade",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlYG0kfbwNoTdn2xZ_Ity07iXrdzx3wHnqhc_YT-gd4PAJgRrZV2Eqwe2wOu5g8K47c_MySBkpGB8si99cQGQ",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Karambit",
+        "skinName": "Lore",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJl5W0nPbmMrbummRD7fp9g-7J4cKi2A3kqhY9Zm6hJ9eXI1RqaVqF-ljowb271564vMyaznA1viF2s3jegVXp1uIYPzxv",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Karambit",
+        "skinName": "Marble Fade",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlY20mvbmMbfUqW1Q7MBOhuDG_Zi7jQGw-xVoZGigd4LEI1I2NQyE_ATqlOrtjMfq6ZWanXA3siBx5CyLnQv3309Lv_QKkg",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "M9 Bayonet",
+        "skinName": "Gamma Doppler Emerald",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KmsjxPr7Dl2dV18hwmOvN8IXvjVCLpxo7Oy3tIdLEdgdqNAmBqFa_kO3mh8K9uJqbyiMy7HIn5H3VzUPl1B0dO7M7hOveFwvYitsMFw",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "M9 Bayonet",
+        "skinName": "Doppler Ruby",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KmsjmJrnIqWZQ-sd9j-Db8IjKhF2zowdyYzjyLIGSIAA8YguCqVK9lOa-1JW5vprBz3EyviB07SveyhfkhklNP_sv26JLM0iiyQ",
+        "type": "Knife"
+    },
+    {
+        "weaponName": "M9 Bayonet",
+        "skinName": "Doppler Sapphire",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KmsjnMqvBnmJD7fp8i_vD-Yn8klGwlB81NDG3OtSUJgY7YVvS-VfolLq7hsO5tZ_OnXo3uyhz7SyPnhGx0xoeb-dugKOACQLJ28w8Lgw",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "M9 Bayonet",
+        "skinName": "Doppler Black Pearl",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Kmsj2P7rSnXtU6dd9teTA5475jV2urhcDPzCkfMKLIwRvYwrWqVS8wezpjcS_78_Mn3Bruykj7HbfzhPm00xLOLc-jPXNHELeWfLcbrqw2A",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "M9 Bayonet",
+        "skinName": "Fade",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-KlsjyMr_UqWdY781lxL-Xpd6ijge1_EVvMmGhJNedew43ZA7TqAXqxOvrjZPovpydwSYw7nE8pSGKgyjY_DU",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "M9 Bayonet",
+        "skinName": "Lore",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Igsj5aoTTl3Ju5Mpjj9bN_Iv9nBq2_xE6Mmv1cIOSclI6ZViFr1XtwertgZK6vJiYwXNjuSEr5XaJzhfhn1gSOWAjuI7h",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "M9 Bayonet",
+        "skinName": "Marble Fade",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Kmsj5MqnTmm5u7sR1j9bN_Iv9nBrj-EE-YTrzcYXGcA85aF7YqQLtwb3o0MXo6Z3Nynoy6Ckr4CnUmBe3n1gSOfoXRhVR",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Butterfly Knife",
+        "skinName": "Gamma Doppler Emerald",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4GGqPL5NqnQmm9u5cRjiOXE_JbwjGu4ohQ0J3f6JtPEegNrMwvUrwe6kLjsjcPtuJXJmnFguCMn5i7enkDkiRFIabM7m7XAHtBCTvK7",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Butterfly Knife",
+        "skinName": "Doppler Ruby",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4GGqOXhMaLum2pD6sl0g_PE8bP5gVO8v11kYjjzJ9KcIFI5YliDqAXoxbrsgpC9up_BmCM17nYh4SndzRLl1xwdcKUx0pRZROip",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Butterfly Knife",
+        "skinName": "Doppler Sapphire",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4GGqOT1I6vZn3lU18hwmOvN8IXvjVCLqSwwOj6rYJiRdg42NAuE-lW5kri5hpbuvM7AzHtmsnMh4imPzUa3gB4aaOw9hfCeVxzAUJ5TOTzr",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Butterfly Knife",
+        "skinName": "Doppler Black Pearl",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4GGqPX4Mrjahm5Q-slOh-jT94DwgU6xryw-DDWqc97RbA9vN1GD8gO2ybq7hsK9tZ_By3ZqsiJw7X3elxzj1xpPb7c506GZSVmAR_selHmOwYo",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Butterfly Knife",
+        "skinName": "Fade",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4GKqPH1N77ummJW4NE_iLjA99nzigexr0NkYmH2dYSTdAU9ZQrW_lm2kO3pgcTuv8vLy3I1sj5iuyin5z3u1g",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Butterfly Knife",
+        "skinName": "Lore",
+        "image": "https://community.akamai.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4OeqPXhJ6_UhG1d8fp9hfvEyoHwjF2hpiwwMiukcZjBdVNsZgnYr1i-kOm5gZC5tZqYwHdrs3R05XfYlkGz1R8ZP7Rv0_yeVxzAUFm-H04o",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Butterfly Knife",
+        "skinName": "Marble Fade",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4GGqPr1Ibndk1RX6cF0teXI8oThxlft-kRsMTqhLIORJwNqYg2E-ge9kOzt18fptMzNzHNg7HQm43bYm0SpwUYb_LdKp9c",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Talon Knife",
+        "skinName": "Crimson Web",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfxPrMfipP7dezhr-DjsjjNrnCqWdY781lxLGWoIj3jVDi8xA9Zm3zIdeTJgRrZ16F_1W7x7_r0JG9vs7OzHpgviI8pSGKNRkWESg",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Talon Knife",
+        "skinName": "Doppler Ruby",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfxPrMfipP7dezhr-KmsjmJrnIqWZQ-sd9j-Db8IjKhF2zowcDPzixc9OLJ1I2NFjV-Vi_lOjm0JfovM6dnScw7yIj4yrdyRy20B1PZ7Q5g_HIGELeWfJNclpFPg",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Talon Knife",
+        "skinName": "Doppler Sapphire",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfxPrMfipP7dezhr-KmsjnMqvBnmJD7fp8i_vD-Yn8klGwlB81NDG3S9rEMFFrf1DTq1jvkOm-18Dq75_JmyY2s3Qg4iyMmRSx1EoeZ7drjfDMHFvMAKBXXP7V39YwYi0",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Talon Knife",
+        "skinName": "Doppler Black Pearl",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfxPrMfipP7dezhr-Kmsj2P7rSnXtU6dd9teTA5475jV2urhcDPzCkfML6Lld8Ng3O_AO4lbu908K0uJyYyXtiuSN34XiPnkTh1BlFb7E80PyeSF2dB6AbHb7CWCSD7XOwiQ",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Talon Knife",
+        "skinName": "Fade",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfxPrMfipP7dezhr-KlsjyMr_UqWdY781lxLyV9t720ADlrkdoMmv0LdOVcgc2ZluG8lHoyObojZ65u5XJmyBivyY8pSGKXDuk4zw",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Talon Knife",
+        "skinName": "Vanilla",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQh5hlcX0nvUOGsx8DdQBJjIAVHubSaIAlp1fb3ZjRG48u7lYuOhbn1Y-OFxGpVuJFyjuiYp9Wn3AznqUtkam-nJdLGJldoNwmD8wK8lOu6m9bi6xwzqz5_",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Talon Knife",
+        "skinName": "Marble Fade",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfxPrMfipP7dezhr-Kmsj5MqnTmm5u7sR1j9bW_Ij6n2u4ohQ0J3fyJoTGcVJqZ1nW8lLsl-nrjMK-6ZqdzSBkvyl25nvdlkS0gxFPZudtm7XAHraYUhpC",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Stiletto Knife",
+        "skinName": "Crimson Web",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfwOfBfThW-NOJnJm0gPL2IITdn2xZ_IskjOjA8Nz33QDi-UppZmz6INLDdQE7aF3SrAPqwOjthZbvuJ7JmCRgpGB8smme8pvO",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Stiletto Knife",
+        "skinName": "Doppler Ruby",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfwOfBfThW-NOJlY20heL2KoTcl3lT5MB4kOzFyoD8j1yglB89IT6mOtXAI1NoNVzYq1e_xe-6jZ_ov5jBmnZiviEqtyvYmBW3h0tLbeE9gv2ACQLJoLokP7k",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Stiletto Knife",
+        "skinName": "Doppler Sapphire",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfwOfBfThW-NOJlY20hPbkI7PYhG5u5cRjiOXE_JbwjGu4ohQ0JwavdcTCJxg9ZF_WqADsyOm715Lpu5SYySFiuCV07XnczhGyhUlMPeI-16CWSl6cGeUXS8Mn9SuW",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Stiletto Knife",
+        "skinName": "Doppler Black Pearl",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfwOfBfThW-NOJlY20lfv1MLDBk2pD5Pp8i_vD-Yn8klGwlB81NDG3S9rEMFFrf1HVqVe7xO_t1pa_v5vInSM2v3YgsH7cmhTliB1KabFphPGcT1ifVPBXXP7VfnqMvnE",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Stiletto Knife",
+        "skinName": "Fade",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfwOfBfThW-NOJlYG0kfbwNoTdn2xZ_Ityj7rDp4qjjFC3-xJuMGz3IIWUcA5oZFvVrlnokO-90JfttJ2dziQypGB8soIAQfsS",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Stiletto Knife",
+        "skinName": "Vanilla",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQh5hlcX0nvUOGsx8DdQBJjIAVHubSaIAlp1fb3YilL4NmigI_FxvbxNb6FlWoB7ZEi2e_CrY-mjg3m_xE9YG_xJo6WJwY4Z16C_we2lfCv28HnEtd6yQ",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "Stiletto Knife",
+        "skinName": "Marble Fade",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJfwOfBfThW-NOJlY20mvbmMbfUqW1Q7MBOhuDG_ZjKhFWmrBZyYTylLYadcgA_YAvU_1K3l-7thp6175idwHAy7CBws3nfmRy1hElIaPsv26KK2yMbfg",
+        "type": "Knife",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "P250",
+        "skinName": "Nuclear Threat",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhzw8zGZDZH_8iknZCOqPDmNr7fqWdY781lxLmYrI_w2wHmqBc_NWHwJIKVI1dqZlnS81e2le7pg8C-up3NynswuCI8pSGKH_ngT0Q",
+        "type": "Pistol",
+        "rarity": "Restricted"
+    },
+    {
+        "weaponName": "P250",
+        "skinName": "Crimson Kimono",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhoyszDeDBN4tOJkImKmvj6N6juhG5V18l4jeHVu9WsjVe2_UU6ZWGnItTHIwJrYF-CqVK-krroh8K5vJnInHpgsiMl5CzD30vgJa5fp5Q",
+        "type": "Pistol",
+        "rarity": "Industrial Grade"
+    },
+    {
+        "weaponName": "P250",
+        "skinName": "See Ya Later",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhjxszYI2gS09-vloWZlOX7MITdn2xZ_Isi07_F8N3x3Qfj8kQ6a2H0IdKXdgRqYA2C-VLqxLznhMLv6Z-bm3o2pGB8sr9Yt3dq",
+        "type": "Pistol",
+        "rarity": "Covert"
+    },
+    {
+        "weaponName": "P250",
+        "skinName": "Asiimov",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhjxszYI2gS092lnYmGmOHLP7LWnn8fv8ZyjL2XoIqijFfh_hduN2D1JIKTd1I6YVyD-1Htk73n1pK4vs6cnGwj5Hc6h7wWIQ",
+        "type": "Pistol",
+        "rarity": "Classified"
+    },
+    {
+        "weaponName": "P250",
+        "skinName": "Undertow",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhh3szYI2gS096zlYSOk8jkMrLfglRd4cJ5nqeT8Yjx2VDgqUU4N2-ldYSVegQ-YVnY-lPvx-6-1sDttcmYmyNkuCJ2-z-DyKbJCvT-",
+        "type": "Pistol",
+        "rarity": "Classified"
+    },
+    {
+        "weaponName": "P250",
+        "skinName": "Whiteout",
+        "image": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopujwezhz3MzfeTRW6dOjgL-HnvD8J_XXkG8H7ZMg3uuXpoimiVLm_xJsZzj6coGScwZsZF3S-1Hvxrrvh5-6ot2Xnkz6GCrE",
+        "type": "Pistol",
+        "rarity": "Mil-Spec"
+    },
+    {
+        "weaponName": "P250",
+        "skinName": "Apep's Curse",
+        "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_gs_p250_apep_light_large.39613b6ade6f204aaaed995e47d0a9fa42963b45.png",
+        "type": "Pistol",
+        "rarity": "Classified"
+    }
+]

@@ -1,0 +1,58 @@
+.container{
+    height: 70%;
+    width: 80%;
+    background-color: #1D1F20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5vmin;
+    gap: 2.5%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10%;
+    width: 95%;
+}
+.header input{
+    height: 70%;
+    width: 20%;
+    background-color: #3C3E3F;
+    border: none;
+    border-radius: 0.5vmin;
+    text-indent: 4%;
+    font-size: 2.5vmin;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.header input:focus{
+    outline: none;
+}
+.body{
+    height: 75%;
+    width: 95%;
+    overflow-y: scroll;
+    gap: 0.5%;
+    row-gap: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.body::-webkit-scrollbar {
+    width: 0px; 
+    height: 0px;
+}
+.card{
+    height: 33%;
+    width: 12.06356954%;
+    border-radius: 0.5vmin;
+}
