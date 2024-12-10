@@ -28,7 +28,7 @@ export default function InventoryProvider({ children }){
                 inventory: arrayUnion(item)
             })
         } catch(error){
-            console.error("Ошибка при получении данных из Firebase:", error)
+            console.error("Firebase Error", error)
         }
     }
 
@@ -64,7 +64,7 @@ export default function InventoryProvider({ children }){
                 }
             }
         } catch (error) {
-            console.error("Ошибка при получении данных из Firebase:", error);
+            console.error("Firebase Error", error);
         }
     }
 
@@ -80,7 +80,7 @@ export default function InventoryProvider({ children }){
 
             itemsContext.removeItem(item);
         } catch(error){
-            console.error("Ошибка при получении данных из Firebase:", error)
+            console.error("Firebase Error", error)
         }
     }
 
@@ -125,7 +125,7 @@ export default function InventoryProvider({ children }){
                 }
             }
         } catch (error) {
-            console.error("Ошибка при получении данных из Firebase:", error);
+            console.error("Firebase Error:", error);
         }
     }
 
@@ -143,7 +143,7 @@ export default function InventoryProvider({ children }){
                 setItemsInInventory(fetchedArray)
             }
         } catch(error){
-            console.error("Ошибка при получении данных из Firebase:", error)
+            console.error("Firebase Error", error)
         }
     }
 
@@ -161,7 +161,7 @@ export default function InventoryProvider({ children }){
                 setItemsOnSell(fetchedArray)
             }
         } catch(error){
-            console.error("Ошибка при получении данных из Firebase:", error)
+            console.error("Firebase Error", error)
         }
     }
 

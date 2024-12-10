@@ -39,7 +39,7 @@ export default function UserProvider({ children }){
             setUser(userDoc.data())
         }
        } catch(error){
-        console.error("Ошибка при получении данных из Firebase:", error)
+        console.error("Firebase Error", error)
        }
     }
 
@@ -57,7 +57,7 @@ export default function UserProvider({ children }){
                 setUser(userDoc.data())
             }
         } catch(error){
-            console.error("Ошибка при получении данных из Firebase:", error)
+            console.error("Firebase Error", error)
         }
     }
 

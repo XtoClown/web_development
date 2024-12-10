@@ -128,7 +128,7 @@ export default function ItemsProvider({ children }){
 
             setItems(fetchedItems)
         } catch(error){
-            console.error("Ошибка при получении данных из Firebase:", error)
+            console.error("Firebase Error", error)
         }
     }
 
@@ -157,7 +157,7 @@ export default function ItemsProvider({ children }){
 
             await getItems()
         } catch(error){
-            console.error("Ошибка при получении данных из Firebase:", error)
+            console.error("Firebase Error", error)
         }
     }
 
@@ -176,7 +176,7 @@ export default function ItemsProvider({ children }){
 
             await getItems()
         } catch(error){
-            console.error("Ошибка при получении данных из Firebase:", error)
+            console.error("Firebase Error", error)
         }
     }
 
@@ -211,7 +211,7 @@ export default function ItemsProvider({ children }){
 
             setItems(totalItems)
         } catch(error){
-            console.error("Ошибка при получении данных из Firebase:", error)
+            console.error("Firebase Error", error)
         }
     }
 
